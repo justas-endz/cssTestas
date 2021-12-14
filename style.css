@@ -1,0 +1,119 @@
+/* header and search */
+.header {
+  display: flex;
+  background: #A9A8AD;
+  align-items: center;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 3px;
+  top: calc(50% - 0.5em);
+}
+
+.inputContainer {
+  position: relative;
+}
+
+input {
+  padding-left: 17px;
+}
+
+/* Hero section */
+.heroSectionOne {
+  background-image: url("/TEST/resources/yelloBackgrnd.jpg");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  color:grey
+}
+
+/* three photos */
+.allPhotosRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+.roundTopImages {
+  width: 100%;
+  height: auto;
+  max-width: 20vh;
+  max-height: 20vh;
+  background-size: cover;
+  display: inline-block;
+  border-radius: 50%;
+  z-index: 2;
+  margin-top: -10vh;
+  filter: grayscale(100%);
+}
+
+
+/* Main text section */
+.mainTextSection > h2{
+  color: #e6e346;
+  text-align: center;
+}
+.mainTextSection > p {
+  margin-left: 10vh;
+  margin-right: 10vh;
+}
+.mainTextSection > p {
+  text-align: justify;
+}
+
+/* two photos bottom */
+.twoPhotos {
+  display: flex;
+  margin: 10vh;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.rightPhotoContact > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.WomanBottomImage {
+  width: auto;
+  height: auto;
+  max-width: 20vh;
+  max-height: 20vh;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.leftPhotoContact, 
+.rightPhotoContact > p, a {
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background-color: #A9A8AD;
+  border-top: solid 20px #e6e346;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 10vh;
+}
+.footerElement {
+  margin-left: 10vh;
+  margin-right: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.footerElement > a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.footerElement > h3 {
+  color: #e6e346;
+  
+  text-align: center;
+}
