@@ -3,8 +3,12 @@
   display: flex;
   background: #A9A8AD;
   align-items: center;
+  justify-content: space-evenly;
 }
-
+.logo {
+  height: 10vh;
+  
+}
 .searchIcon {
   position: absolute;
   left: 3px;
@@ -14,7 +18,6 @@
 .inputContainer {
   position: relative;
 }
-
 input {
   padding-left: 17px;
 }
@@ -71,10 +74,11 @@ input {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
-.rightPhotoContact > div {
+.rightPhotoContact,
+.leftPhotoContact {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .WomanBottomImage {
@@ -83,6 +87,7 @@ input {
   max-width: 20vh;
   max-height: 20vh;
   border-radius: 50%;
+  
   filter: grayscale(100%);
 }
 
