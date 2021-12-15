@@ -6,20 +6,25 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 .logoContainer {
   margin: 2vh;
 }
+
 .logo {
   height: 10vh;
 }
+
 .searchIcon {
   position: absolute;
   left: 3px;
   top: calc(50% - 0.5em);
 }
+
 .inputContainer {
   position: relative;
 }
+
 input {
   padding-left: 17px;
 }
@@ -61,12 +66,14 @@ input {
   color: #e6e346;
   text-align: center;
 }
+
 .mainTextSection > p {
   margin-left: 10vh;
   margin-right: 10vh;
 }
+
 .mainTextSection > p {
-  text-align: justify;
+  text-align: center;
 }
 
 /* two photos bottom */
@@ -76,26 +83,36 @@ input {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 .rightPhotoContact,
 .leftPhotoContact {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-evenly;
 }
 
-.WomanBottomImage {
+.womanBottomImage {
   width: auto;
   height: auto;
   max-width: 20vh;
   max-height: 20vh;
   border-radius: 50%;
-  
   filter: grayscale(100%);
+}
+
+.bottomPhotosContacts {
+  color: #e6e346;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 5vh;
 }
 
 .leftPhotoContact, 
 .rightPhotoContact > p, a {
   text-decoration: none;
+  color: black;
 }
 
 /* Footer */
@@ -121,6 +138,5 @@ footer {
 }
 .footerElement > h3 {
   color: #e6e346;
-  
   text-align: center;
 }
