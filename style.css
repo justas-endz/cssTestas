@@ -1,20 +1,22 @@
 /* header and search */
 .header {
   display: flex;
-  background: #A9A8AD;
+  background: #C3C3C3;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.logoContainer {
+  margin: 2vh;
 }
 .logo {
   height: 10vh;
-  
 }
 .searchIcon {
   position: absolute;
   left: 3px;
   top: calc(50% - 0.5em);
 }
-
 .inputContainer {
   position: relative;
 }
@@ -40,6 +42,7 @@ input {
   display: flex;
   justify-content: space-evenly;
 }
+
 .roundTopImages {
   width: 100%;
   height: auto;
@@ -52,7 +55,6 @@ input {
   margin-top: -10vh;
   filter: grayscale(100%);
 }
-
 
 /* Main text section */
 .mainTextSection > h2{
