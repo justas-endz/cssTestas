@@ -124,6 +124,7 @@ footer {
   flex-wrap: wrap;
   padding-bottom: 10vh;
 }
+
 .footerElement {
   margin-left: 10vh;
   margin-right: 10vh;
@@ -131,11 +132,13 @@ footer {
   flex-direction: column;
   justify-content: space-evenly;
 }
+
 .footerElement > a {
   color: white;
   text-decoration: none;
   text-align: center;
 }
+
 .footerElement > h3 {
   color: #e6e346;
   text-align: center;
