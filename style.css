@@ -31,7 +31,7 @@ input {
 
 /* Hero section */
 .heroSectionOne {
-  background-image: url("/TEST/resources/yelloBackgrnd.jpg");
+  background-image: url("resources/yelloBackgrnd.jpg");
   width: 100%;
   height: 100vh;
   display: flex;
